@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>clueminds</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=sofia" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+  
+
+        
+		<!-- Bootstrap--> 
+		<link type="text/css" rel="stylesheet" href="css/boostrap.css"/>
+
+		<!-- Font Awesome Icon -->
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+		<!--animation-->
+		<link rel="stylesheet" href="css/animation.css">
+    <!--hover-->
+    <link rel="stylesheet" href="css/hover.css">
+			
+  <style>
+
+	
+/*navbar*/
+.navbar {
+	    margin-bottom:0;
+	    background-color:#5E4485;
+	    color:#fff;
+        font-size: 1.2em;}
+	.navbar-brand {
+	    float:left;}
+	 .navbar-inverse .navbar-nav li a:hover, .navbar-inverse .navbar-nav li  a:focus, .navbar-inverse .navbar-nav .active  a, .navbar-inverse .navbar-nav .active a:hover, .navbar-inverse .navbar-nav  .active a:focus  {
+	    color:#33d6ff;
+	    background-color:#5E4485;
+	    border-bottom-color: #fff;
+
+        transition: border 1s linear;}
+	.navbar-inverse .navbar-nav li a{
+	    border-bottom: 2px solid transparent;
+	    padding: 0; 
+        margin: 14px;
+	    color: #D5D5D5;}
+/*navbar*/
+
+
+
+
+/*content*/
+body {
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f7f7f7;
+}
+  
+
+
+		
+
+
+/*content welcome*/
+{
+    box-sizing: border-box;
+}
+.column {
+    float: left;
+    width: 50%;
+    padding: 20px;
+    height: 300px; 
+	
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: ;
+	
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+<!--content-->
+.footer{
+  color:#fff;
+}
+#welcome{
+  font-family: 'Josefin Sans', sans-serif;
+}
+/*footersocial*/
+i.fa {
+  display: inline-block;
+  border-radius: 60px;
+  box-shadow: 0px 0px 2px #888;
+  padding: 10px;
+  font-size: 20px;
+  
+}
+i.fa-facebook{
+  background-color: #3b5998;
+}
+i.fa-twitter{
+  background-color:#3B5998;
+}
+i.fa-github{
+  background-color:#0074D9;
+}
+i.fa-linkedin{
+  background-color:#0077B5;
+}
+.btn{
+    font-size:18px;
+    color:#000;
+    padding:12px 22px;
+    font-size: 24px;
+    }
+    /*why choose us*/
+  .c4{
+    background-color: #e6b3cc;
+    font-size: 16px;
+    width:100%; 
+  } 
+/*cards*/
+.image {
+  opacity: 1;
+  display: flex;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  
+}
+
+.pic:hover .image {
+  opacity: 0.2;
+  background-color: #008CBA ;
+}
+
+.pic:hover .middle {
+  opacity: 1;         
+}
+/*dropdown*/
+.navbar-inverse .navbar-nav > li.dropdown:hover > a, 
+.navbar-inverse .navbar-nav > li.dropdown:hover > a:hover,
+.navbar-inverse .navbar-nav > li.dropdown:hover > a:focus {
+    background-color:#5E4485;
+    color: #fff;
+}
+li.dropdown:hover > .dropdown-menu {
+    display: block;
+    background-color:#5E4485 ;
+    color: #fff;
+}
+
+.ca1{
+  box-shadow: 0 8px 18px 0 rgba(0, 0, 0, 0.4), 0 16px 60px 0 rgba(0, 0, 0, 0.249);
+}
+
+
+
+
+
+
+  
+
+
+</style>
+
+  
+</head>
+<body>
+	<!-- Header -->
+		<header id="header">
+			<div class="container-full-bg">
+
+				
+
+				<!-- Navigation -->
+	<nav class="navbar navbar-inverse">
+	  <div class="container-fluid">
+	    <div class="navbar-header">
+		    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+			   <span class="icon-bar"></span>
+			   <span class="icon-bar"></span>
+			   <span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="#"><img src=""></a>
+		</div>
+		<div class="collapse navbar-collapse" id="myNavbar">
+		    <ul class="nav navbar-nav navbar-right">
+			   <li class="active"><a href="home.html"><strong>Home</strong></a></li>
+         <li><a class="hvr-pop" href="about.html"><strong>About Us</strong></a></li>
+			   <li> <a class="hvr-pop" href="project.html"><strong>Projects</strong></a></li>
+		<li class="dropdown ">
+          <a  class="dropdown-toggle " data-toggle="dropdown" href="Services.html"><strong>Services</strong></a>
+          <ul class="dropdown-menu">
+            <li><a class="hvr-float" href="services.html">home</a></li>
+            <li><a class="hvr-float" href="iot.html">IOT</a></li>
+            <li><a class="hvr-float" href="embeddded.html">EMBEDDED</a></li>
+            <li><a class="hvr-float" href="fullstack.html">FULL STACK</a></li>
+            <li><a class="hvr-float" href="testing.html">TESTING</a></li>
+          </ul>
+        </li>
+         <li><a class="hvr-pop" href="contact.html"><strong>Contact Us</strong></a></li>
+			   
+			   </ul>
+         <ul class="nav navbar-nav navbar-left">
+          <div class="navbar-brand" style="margin-bottom: 20px">
+          <li  class="active"><img style="margin-bottom: 20px" src="clue.jpg"> </li>
+        </div>
+         </ul>
+          
+    </div>
+
+		</div>
+        </div>	
+	</nav>
+				<!-- /Navigation -->
+
+			</div>
+		</header>
+		<!-- /Header -->
+  
+<!--carousel>
+<div class="container-fluid " style="padding-left: 0px;padding-right: 0px">  
+  <div id="myCarousel" class="carousel slide"  data-ride="carousel">
+    <!-- Indicators 
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides 
+    <div class="carousel-inner">
+
+      <div class="item active">
+       --> <img src="img/eb.gif" alt="Los Angeles" class="" class="img-responsive" width="100%" height="100%" >
+        <div class="carousel-caption">
+          <h3></h3>
+          <p></p>
+        </div>
+      </div>
+      <br>
+      <br>
+
+   <!--   <div class="item">
+        <div>
+        <img src="img/web2.gif" alt="Chicago" class="">
+        <div class="carousel-caption">
+          <h3></h3>
+          <p></p>
+        </div>
+        </div>
+      </div>
+    
+      <div class="item">
+        <img src="m2.jpg" alt="New York"  class="">
+        <div class="carousel-caption">
+          <h3></h3>
+          <p></p>
+        </div>
+      </div>
+
+    <!-- Left and right controls-- 
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"> </span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+    </div>
+  </div>
+</div>  
+<br>
+<br>-->
+    <!--welcome-->
+<section style="background-color:#eee" class="container-fluid text-center my-5">
+  <div class="row">
+    <div  class="animated slideInLeft col-md-6" id="welcome">
+      <div class="page-header ">
+      <h1 style="font-size:36px;background-color:#e6b3cc"><strong>Welcome To ClueMinds</strong></h1>
+      <i style="font-size: xx-large" class=" animated infinite bounce delay-2s fa fa-handshake-o" aria-hidden="true"></i>
+      </div>
+      
+      <p style="font-size:20px">Clueminds Improve efficiency and eliminate pain areas with reliable, secure web applications and software development services. We build data-centric and user-friendly applications that can be securely integrated and deployed across a variety of platforms and networks.
+
+      Engage your users with our secure, apt and organized content services. Create your own content with our tools or enhance your existing content with our specialized content services that are aimed at improving your content.</p>
+    </div>
+   <div class="col-md-6 col-sm-11 animated slideInRight delay-1s">
+    <img  src="img/home-background.jpg" class="img-responsive">
+   </div>
+  </div>
+
+</section>
+<br><br><br>
+
+
+
+<!------ project ---------->
+<div class="page-header">
+  <h1 style="font-family: 'Ultra', serif;background-color: #e6b3cc" align="center">PROJECTS</h1>
+  <h3 class="animated infinite flash" style="font-family: 'Ultra', serif;"align="right"><a href="project.html">- More Projects</a></h3>
+</div> 
+<div style="font-family: 'IBM Plex Mono', monospace;" class="container-fluid " > 
+<div class="card-group">
+  <div class="row">
+    <div class="col-lg-4 col-sm-12">
+  <div style="background-color: #fff; margin-bottom: 10px" class="card hvr-float ca1">
+    <h4 style="font-family: 'Ultra', serif;font-size: 26px" align="center" class="card-title"><strong>Educlueminds</strong></h4> <hr>
+    
+    <p style="font-family: 'Ultra', serif;font-size: 20px" class="card-text " align="center">Online education app.</p>
+    <img class="card-img-top  " src="educlueminds.png" alt="Card image cap" width="100%" height="100%">
+    <button class="button hvr-bounce-to-right" style="width:100%; height:100%;font-size: 18px"><strong>Learn More</strong><i class="fa fa-chevron-circle-right hvr-icon"></i></button>
+  </div>
+</div>
+    <div class="col-lg-4 col-sm-12">
+  <div style="background-color: #fff;margin-bottom: 10px" class="card hvr-float ca1">
+    <h4 style="font-family: 'Ultra', serif;font-size: 26px" align="center" class="card-title"><strong>Tomatino</strong></h4> <hr>
+    
+    <p style="font-family: 'Ultra', serif;font-size: 20px" class="card-text " align="center">It is an online food delivery application.</p>
+    <img class="card-img-top  " src="tomatino.png" alt="Card image cap" width="100%" height="100%">
+    <button class="button hvr-bounce-to-right" style="width:100%; height:100%;font-size: 18px"><strong>Learn More</strong><i class="fa fa-chevron-circle-right hvr-icon"></i></button>
+  </div>
+</div>
+   <div class="col-lg-4 col-sm-12">
+  <div style="background-color: #fff;margin-bottom: 10px" class="card hvr-float ca1">
+    <h4 style="font-family: 'Ultra', serif;font-size: 26px" align="center" class="card-title"><strong>Prakriti Ayurcare</strong></h4> <hr>
+    
+    <p style="font-family: 'Ultra', serif;font-size: 20px" class="card-text " align="center">Ayurvedic site which provide treament details.</p>
+    <img class="card-img-top  " src="prakritiayurcare.png" alt="Card image cap" width="100%" height="100%">
+    <button class="button hvr-bounce-to-right" style="width:100%; height:100%;font-size: 18px"><strong>Learn More</strong><i class="fa fa-chevron-circle-right hvr-icon"></i></button>
+  </div>
+</div>
+</div>
+     
+
+</div>
+</div>
+<br><br>
+<!----our technology---->
+  <h1 style="font-family: 'Ultra', serif;background-color: #e6b3cc" align="center">Technology Insight</h1>
+    <hr>
+<div class="container ">
+  <div  class="row">
+      <div class="card card-inverse text-center col-md-3 col-sm-12 pic" style="max-width: 280px;">
+<!-- Image -->
+   <img align="center" class="card-img-top image" src="img/bigdata.jpg" alt="Photo of sunset">
+   <div class="middle">
+    <div class="text"><strong>Big Data</strong></div>
+    <button style="background-color:#4CAF50;" type="button"><a href="bigdata.html">learn More</a></button>
+  </div>
+
+<!-- Text Overlay -->
+    <div class="card-img-overlay">
+        <h4 class="card-title">Big Data</h4> 
+    <p class="card-text"></p>
+    </div>
+
+    </div>
+     <div class="card card-inverse text-center col-md-3 col-sm-12 pic" style="max-width: 280px;">
+
+<!-- Image -->
+   <img class="card-img-top image" src="img/mobile.png" alt="Photo of sunset">
+   <div class="middle">
+    <div class="text"><strong>Mobile Development</strong></div>
+    <button style="background-color:#4CAF50;" type="button"><a href="mobile.html">learn More</a></button>
+  </div>
+
+<!-- Text Overlay -->
+    <div class="card-img-overlay">
+        <h4 class="card-title">Mobile Development<br>(android/Ios)</h4> 
+    </div>
+    </div>
+  
+     <div class="card card-inverse text-center col-md-3 col-sm-12 pic " style="max-width: 280px">
+
+<!-- Image -->
+   <img class="card-img-top image" src="img/iot-512.png" alt="Photo of sunset">
+   <div class="middle">
+    <div class="text"><strong>Iot<br>(Internet of things)</strong></div>
+    <button style="background-color:#4CAF50;" type="button"><a href="iot.html">learn More</a></button>
+  </div>
+
+<!-- Text Overlay -->
+    <div class="card-img-overlay">
+        <h4 class="card-title">Iot<br>(Internet of things)</h4> 
+    </div>
+    </div>
+    <div class="card card-inverse text-center col-md-3 col-sm-12 pic" style="max-width: 280px">
+
+<!-- Image -->
+   <img class="card-img-top image" src="img/web.jpg" alt="Photo of sunset">
+   <div class="middle">
+    <div class="text"><strong>Web design and <br>Development</strong></div>
+    <button style="background-color:#4CAF50;" type="button"><a href="webdesign.html">learn More</a></button>
+  </div>
+
+<!-- Text Overlay -->
+    <div class="card-img-overlay">
+        <h4 class="card-title">Web design and <br>Development</h4>
+    
+    </div>
+    </div>
+    
+</div>
+   <div style="padding-right: 100px" class="row">
+    
+    <div class="card card-inverse text-center col-md-3 col-md-offset-2 col-sm-12 pic" style="max-width: 280px">
+
+<!-- Image -->
+   <img class="card-img-top image" src="img/webanalytics.png" alt="Photo of sunset">
+   <div class="middle">
+    <div class="text"><strong>web analytics</strong></div>
+    <button style="background-color:#4CAF50;" type="button"><a href="bigdata.html">learn More</a></button>
+  </div>
+
+<!-- Text Overlay -->
+    <div class="card-img-overlay">
+        <h4 class="card-title">web analytics</h4> 
+    </div>
+    </div>  
+    <div class="card card-inverse text-center col-md-3 col-sm-12 pic " style="max-width: 280px">
+
+<!-- Image -->
+   <img class="card-img-top image" src="img/WebHosting.png" alt="Photo of sunset">
+   <div class="middle">
+    <div class="text"><strong>Web Hosting</strong></div>
+    <button style="background-color:#4CAF50;" type="button"><a href="webhosting.html">learn More</a></button>
+  </div>
+
+<!-- Text Overlay -->
+    <div class="card-img-overlay">
+        <h4 class="card-title">Web Hosting</h4> 
+    </div>
+    </div>
+       
+     <div class="card card-inverse text-center col-md-3 col-sm-12 pic" style="max-width: 280px">
+
+<!-- Image -->
+   <img class="card-img-top image" src="img/epr.png" alt="Photo of sunset">
+   <div class="middle">
+    <div class="text"><strong>EMS and CMS</strong></div>
+    <button style="background-color:#4CAF50;" type="button">learn More</button>
+  </div>
+
+<!-- Text Overlay -->
+    <div class="card-img-overlay">
+        <h4 class="card-title">EMS and CMS </h4> 
+    </div>
+    </div>
+    </div>
+  </div>  
+  <br><br>  
+  <!--why choose us-->
+    <div class="container-fluid c4">
+      <h1 style="font-family: 'Ultra', serif;" align="center"><strong>Why Choose us</strong></h1>
+       <hr> 
+      <div class="row">
+        <div class="col-md-6 col-sm-12">
+      <h3 style="font-family: 'Ultra', serif;"><strong>Professional Solution</strong></h3>
+      <p style="font-family: 'Ultra', serif;">ClueMinds understand what professionalism is. Our services are completely suitable and matched with the global standard.</p>
+    </div>
+        <div class="col-md-6 col-sm-12">
+      <h3 style="font-family: 'Ultra', serif;"><strong>Professional Solution</strong></h3>
+      <p style="font-family: 'Ultra', serif;">We understand our job and perform accordingly. Achieving 100 percent client satisfaction level is our motto and we work in that manner to achieve our goal. Top notch quality of services is another feature of our company. We have the experience to work with plenty of companies, including small-medium and large organizations. Thus, we feature top quality IT support and competent to handle projects with any level of difficulties.</p>
+    </div>
+   </div>
+  </div>      
+      
+
+  <!--footer-->
+      
+<footer class="footer" style="color:white">
+      <div style="background-color:#5E4485;color:white;" class="container-fluid">
+        <div class="row">
+
+          <div class="col-md-4  col-sm-12 text-center">
+            <div class="">
+              <p style="padding-top:20px">
+                <a href="home.html"><strong>Home</strong></a> | 
+                <a href="about.html"><strong>About Us</strong></a>|
+                <a href="project.html"><strong>Project</strong></a> |
+                <a href="Services"><strong>Services</strong></a> |
+                <a href="contact.html"><strong>Contact Us</strong></a> 
+                 |
+                
+              </p>
+
+            </div>
+          </div>
+          <div class="col-md-4">
+        <div  align="center" style="padding-top:20px;color:#fff ">
+        <a href="#"><i  class="fa fa-twitter" aria-hidden="true"></i></a>
+        <a href="#"><i  class="fa fa-facebook" aria-hidden="true"></i></a>
+        <a href="#"><i  class="fa fa-linkedin" aria-hidden="true"></i></a>
+        <a href="#"><i  class="fa fa-github" aria-hidden="true"></i></a>
+              </div>
+          </div>
+
+        
+            <div class="col-md-4 col-sm-12 text-center">
+              <p style="padding-top: 20px;" class="">
+              <strong>  Copyright@2016-2018</strong><a href="" rel=""></a>
+              </p>
+            </div>
+          
+
+        </div>
+        <!-- /row of panels -->
+      </div>
+  </footer>		<!-- /Footer -->
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<title>Contact</title>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		 <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+		<!-- Google font -->
+		<link href="https://fonts.googleapis.com/css?family=Lato:700%7CMontserrat:400,600" rel="stylesheet">
+
+		<!-- Bootstrap -->
+		<link type="text/css" rel="stylesheet" href="css/boostrap.css"/>
+
+		<!-- Font Awesome Icon -->
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+		
+		<!--animation-->
+		<link rel="stylesheet" href="css/animation.css">
+
+		<!-- Custom stlylesheet -->
+		<link type="text/css" rel="stylesheet" href="css/style.css"/>
+
+	
+	<style>
+    .navbar {
+	    margin-bottom:0;
+	    margin-radius:10;
+	    background-color:#5E4485;
+	    color:#fff;
+        font-size: 1.2em;}
+	.navbar-brand {
+	    float:left;}
+	 .navbar-inverse .navbar-nav li a:hover, .navbar-inverse .navbar-nav li  a:focus, .navbar-inverse .navbar-nav .active  a, .navbar-inverse .navbar-nav .active a:hover, .navbar-inverse .navbar-nav  .active a:focus  {
+	    color:#33d6ff;
+	    background-color:#5E4485;
+	    border-bottom-color: #fff;
+        transition: border 1s linear;}
+	.navbar-inverse .navbar-nav li a{
+	    border-bottom: 2px solid transparent;
+	    padding: 0; 
+        margin: 14px;
+	    color: #D5D5D5;}
+
+	    i.fa {
+  display: inline-block;
+  border-radius: 60px;
+  box-shadow: 0px 0px 2px #888;
+  padding: 10px;
+  font-size: 20px;
+  
+}
+i.fa-facebook{
+  background-color: #3b5998;
+}
+i.fa-twitter{
+  background-color:#3B5998;
+}
+i.fa-github{
+  background-color:#0074D9;
+}
+i.fa-linkedin{
+  background-color:#0077B5;
+}
+.btn{
+    font-size:18px;
+    color:#000;
+    padding:12px 22px;
+    font-size: 24px;
+       }
+
+/*dropdown*/
+.navbar-inverse .navbar-nav > li.dropdown:hover > a, 
+.navbar-inverse .navbar-nav > li.dropdown:hover > a:hover,
+.navbar-inverse .navbar-nav > li.dropdown:hover > a:focus {
+    background-color:#5E4485;
+    color: #fff;
+}
+li.dropdown:hover > .dropdown-menu {
+    display: block;
+    background-color:#5E4485 ;
+    color: #fff;
+}
+
+
+	
+	
+		
+	</style>
+		
+
+    </head>
+	<body style="background-color:#fff">
+
+		<!-- Header -->
+		<header id="header">
+			<div class="container-full-bg">
+
+				
+
+				<!-- Navigation -->
+				<nav class="navbar navbar-inverse">
+	  <div class="container-fluid">
+	    <div class="navbar-header">
+		    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+			   <span class="icon-bar"></span>
+			   <span class="icon-bar"></span>
+			   <span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="#"><img src=""></a>
+		</div>
+		<div class="collapse navbar-collapse" id="myNavbar">
+		    <ul class="nav navbar-nav navbar-right">
+			   <li class="active"><a href="home.html"><strong>Home</strong></a></li>
+               <li><a class="hvr-pop" href="about.html">About Us</a></li>
+			   <li> <a class="hvr-pop" href="project.html">Projects</a></li>
+			   <li class="dropdown">
+          <a href="Services.html" class="dropdown-toggle" data-toggle="dropdown"><strong>Services</strong><b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a class="hvr-float" href="iot.html">IOT</a></li>
+            <li><a class="hvr-float" href="embeddded.html">EMBEDDED</a></li>
+            <li><a class="hvr-float" href="fullstack.html">FULL STACK</a></li>
+            <li><a class="hvr-float" href="testing.html">TESTING</a></li>
+          </ul>
+        </li>
+               <li><a class="hvr-pop" href="contact.html">Contact Us</a></li>
+
+			   </ul>
+         <ul class="nav navbar-nav navbar-left">
+          <li class"active"><a href="home.html">ClueMinds</a></li>
+         </ul>
+		</div>
+	  </div>	
+	</nav>
+				<!-- /Navigation -->
+
+			</div>
+		</header>
+		<!-- /Header -->
+
+		<!-- Hero-area -->
+		<div class="hero-area section">
+
+			<!-- Backgound Image -->
+			<div class="bg-image bg-parallax overlay" style="background-image:url(./img/page-background.jpg)"></div>
+			<!-- /Backgound Image -->
+
+			<div class="container">
+				<div class="row">
+					<div class="col-md-10 col-md-offset-1 text-center">
+						<ul class="hero-area-tree">
+							<li><a href="index.html">Home</a></li>
+							<li>Contact</li>
+						</ul>
+						<h1 class="white-text">Get In Touch</h1>
+
+					</div>
+				</div>
+			</div>
+
+		</div>
+		<!-- /Hero-area -->
+
+		<!-- Contact -->
+		<div id="contact" class="section">
+
+			<!-- container -->
+			<div class="container">
+
+				<!-- row -->
+				<div class="row">
+
+					<!-- contact form -->
+					<div class="col-md-6">
+						<div class="contact-form">
+							<h4>Send A Message</h4>
+							<form>
+								<input class="input" type="text" name="name" placeholder="Name">
+								<input class="input" type="email" name="email" placeholder="Email">
+								<input class="input" type="text" name="subject" placeholder="Subject">
+								<textarea class="input" name="message" placeholder="Enter your Message"></textarea>
+								<button class="main-button icon-button pull-right">Send Message</button>
+							</form>
+						</div>
+					</div>
+					<!-- /contact form -->
+
+					<!-- contact information -->
+					<div class="col-md-5 col-md-offset-1">
+						<h4>Contact Information</h4>
+						<ul class="contact-details">
+							<li><i class="fa fa-envelope"></i>Clueminds@gmail.com</li>
+							<li><i class="fa fa-phone"></i>+91 7892854744</li>
+
+							<li><i class="fa fa-map-marker col-sm-3"></i>Address : #1,2nd main,Horamavu main road 
+                                         Papanna Layout, Opp. to State Bank Of India 
+                                         Bangalore-560043 </li>
+						</ul>
+
+						<!-- contact map -->
+						
+						<!-- /contact map -->
+
+					</div>
+					<!-- contact information -->
+					
+				</div>
+				<!-- /row -->
+
+			</div>
+			<!-- /container -->
+			
+
+		</div>
+		<!-- /Contact -->
+            <div class="container-fluid">
+							<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3887.179200698986!2d77.65582405924681!3d13.024257680294086!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae10ce35975e83%3A0x5f161f1c11819505!2sClueminds+Private+Limited!5e0!3m2!1sen!2sin!4v1533292613363" width="100%" height="450px" frameborder="0" style="border:0" allowfullscreen></iframe>
+						</div>
+		  <!--footer-->
+      
+<footer class="footer" style="color:white">
+      <div style="background-color:#5E4485;color:white;" class="container-fluid">
+        <div class="row">
+
+          <div class="col-md-4  col-sm-12 text-center">
+            <div class="">
+              <p style="padding-top:20px">
+                <a href="home.html"><strong>Home</strong></a> | 
+                <a href="about.html"><strong>About Us</strong></a>|
+                <a href="project.html"><strong>Project</strong></a> |
+                <a href="Services.html"><strong>Services</strong></a> |
+                <a href="contact.html"><strong>Contact Us</strong></a>
+                
+              </p>
+
+            </div>
+          </div>
+          <div class="col-md-4">
+        <div  align="center" style="padding-top:20px;color:#fff ">
+        <a href="#"><i  class="fa fa-twitter" aria-hidden="true"></i></a>
+        <a href="#"><i  class="fa fa-facebook" aria-hidden="true"></i></a>
+        <a href="#"><i  class="fa fa-linkedin" aria-hidden="true"></i></a>
+        <a href="#"><i  class="fa fa-github" aria-hidden="true"></i></a>
+              </div>
+          </div>
+
+        <div class="">
+            <div class="col-md-4 col-sm-12 text-center">
+              <p style="padding-top: 20px;" class="">
+              <strong>  Copyright@2016-2018</strong><a href="" rel=""></a>
+              </p>
+            </div>
+          </div>
+
+        </div>
+        <!-- /row of panels -->
+      </div>
+  </footer>		<!-- /Footer -->
+
+		<!-- preloader -->
+		<div id='preloader'><div class='preloader'></div></div>
+		<!-- /preloader -->
+
+
+		<!-- jQuery Plugins -->
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+        <script src="js/google-map.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+
+	</body>
+</html>
